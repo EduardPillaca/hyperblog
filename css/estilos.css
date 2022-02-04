@@ -1,5 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    color: deeppink;
-    text-align: center;
-    font-family: "Arial";
+    display: flex;
+    justify-content: center;
+}
+
+body .contenido{
+    width: 800px;
+    height: auto;
+    border: 1px solid black;
+    text-align: left;
+    padding: 1em;
+}
+
+body .contenido h1{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+body .contenido p{
+    margin: 15px 0;
+    font-size: 20px;
 }
